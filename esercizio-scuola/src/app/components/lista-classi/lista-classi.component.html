@@ -1,0 +1,15 @@
+<div class="listaTotale">
+  <h1>Lista classi</h1>
+  <div class="classi">
+    <div class="card" *ngFor="let classe of classi; index as i">
+      <h2>Classe: {{ classe.classe }}-{{ classe.sezione }}</h2>
+      <p>Rappresentante: {{ classe.rappresentante }}</p>
+      <a
+        routerLink="listaClassi/{{ i }}"
+        style="margin-right: 10px"
+        class="nav-link"
+        >Dettagli</a
+      >
+    </div>
+  </div>
+</div>

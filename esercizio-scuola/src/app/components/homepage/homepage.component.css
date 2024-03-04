@@ -1,23 +1,55 @@
+/* <reset-style> ============================ */
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% auto;
 }
 
-.nav-link {
-  margin: 1% auto; /* Incrementato lo spazio tra i link */
-  padding: 10px 20px;
-  color: #0f0e0e; /* Colore del testo */
+a {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 2% 2% 0 0;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
-  border-radius: 5px;
-  border: 2px solid #ffffff; /* Colore del bordo */
-  background-color: transparent;
-  transition: all 0.3s ease; /* Animazione transizione */
-  background-color: #fff;
+}
+/* <main-style> ============================ */
+.nav-link {
+  min-width: 62px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #ffffff94;
+  transition: background-color 0.4s;
+}
+
+.nav-link span {
+  color: #000;
+  line-height: 1;
+  transition: color 0.4s;
 }
 
 .nav-link:hover {
-  background-color: #333;
+  background: linear-gradient(90deg, #000000 50%, transparent 0) repeat-x,
+    linear-gradient(90deg, #000000 50%, transparent 0) repeat-x,
+    linear-gradient(0deg, #000000 50%, transparent 0) repeat-y,
+    linear-gradient(0deg, #000000 50%, transparent 0) repeat-y;
+  background-size: 6px 2px, 6px 2px, 2px 6px, 2px 6px;
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  animation: linearGradientMove 0.4s infinite linear;
+}
+
+.nav-link:hover span {
   color: #fff;
+}
+
+@keyframes linearGradientMove {
+  100% {
+    background-position: 6px 0, -6px 100%, 0 -6px, 100% 6px;
+  }
 }

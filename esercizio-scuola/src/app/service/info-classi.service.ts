@@ -12,6 +12,37 @@ export class InfoClassiService {
     mascotte: string;
   }[] = [
     {
+      classe: 4,
+      sezione: 'C',
+      laboratorio: true,
+      rappresentante: 'Luna Stardust',
+      mascotte:
+        'https://ih1.redbubble.net/image.4909511332.3792/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg',
+    },
+    {
+      classe: 2,
+      sezione: 'D',
+      laboratorio: false,
+      rappresentante: 'Neo Flux',
+      mascotte:
+        'https://cdn.corrieredellosport.it/images/2020/05/17/132405093-9c63a25a-4276-4882-b454-a517574022bf.jpeg',
+    },
+    {
+      classe: 5,
+      sezione: 'B',
+      laboratorio: true,
+      rappresentante: 'Astra Nova',
+      mascotte: 'https://i.ebayimg.com/images/g/Nh0AAOSwopljvN4H/s-l1200.webp',
+    },
+    {
+      classe: 1,
+      sezione: 'E',
+      laboratorio: false,
+      rappresentante: 'Cosmo Spark',
+      mascotte:
+        'https://c4.wallpaperflare.com/wallpaper/937/112/903/adults-riley-reid-brunette-face-wallpaper-preview.jpg',
+    },
+    {
       classe: 2,
       sezione: 'A',
       laboratorio: true,
@@ -43,34 +74,6 @@ export class InfoClassiService {
       mascotte:
         'https://images.squarespace-cdn.com/content/v1/5c6463897fdcb8d3e8cf7d9c/1560817385865-A86N711HU2I17MV9NY9S/benny-the-bull.jpg',
     },
-    {
-      classe: 4,
-      sezione: 'C',
-      laboratorio: true,
-      rappresentante: 'Luna Stardust',
-      mascotte: 'https://www.si.com/.image/t_share/MTY4MDA4MDIzNTAxMzgyOTI5/oregon-ducks-mascotjpg.jpg'
-    },
-    {
-      classe: 2,
-      sezione: 'D',
-      laboratorio: false,
-      rappresentante: 'Neo Flux',
-      mascotte: 'https://cdn.bleacherreport.net/images_root/slides/photos/000/475/726/98265263_original.jpg?1288479769'
-    },
-    {
-      classe: 5,
-      sezione: 'B',
-      laboratorio: true,
-      rappresentante: 'Astra Nova',
-      mascotte: 'https://www.si.com/.image/t_share/MTY4MDA4MDIzNzY3ODUyMzA1/syracuse-mascot-orangejpg.jpg'
-    },
-    {
-      classe: 1,
-      sezione: 'E',
-      laboratorio: false,
-      rappresentante: 'Cosmo Spark',
-      mascotte: 'https://c4.wallpaperflare.com/wallpaper/937/112/903/adults-riley-reid-brunette-face-wallpaper-preview.jpg'
-    }
   ];
 
   constructor() {}

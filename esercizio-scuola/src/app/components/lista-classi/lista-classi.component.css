@@ -1,18 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Indie+Flower&family=Protest+Strike&display=swap");
 .listaTotale {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 
+.classi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
 .listaTotale .card {
+  margin: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   width: 100%;
+
+  background-color: rgb(255, 255, 255);
 }
 
 .listaTotale .card h2 {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   padding-bottom: 5px;
   border-bottom: 1px solid #ccc;

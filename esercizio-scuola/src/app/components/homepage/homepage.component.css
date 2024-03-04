@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+}
+
+.nav-link {
+  margin: 1% auto; /* Incrementato lo spazio tra i link */
+  padding: 10px 20px;
+  color: #0f0e0e; /* Colore del testo */
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #ffffff; /* Colore del bordo */
+  background-color: transparent;
+  transition: all 0.3s ease; /* Animazione transizione */
+  background-color: #fff;
+}
+
+.nav-link:hover {
+  background-color: #333;
+  color: #fff;
+}

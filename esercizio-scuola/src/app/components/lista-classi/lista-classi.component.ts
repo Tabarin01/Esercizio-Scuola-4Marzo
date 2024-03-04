@@ -13,13 +13,10 @@ export class ListaClassiComponent implements OnInit {
   constructor(
     private infoService: InfoClassiService,
     private route: ActivatedRoute
-  ) {
-    this.classi = infoService.getAll();
-  }
+  ) {}
 
   ngOnInit(): void {
     this.classi = this.infoService.getAll();
     this.id = parseInt(this.route.snapshot.paramMap.get('id'));
-    console.log(this.id);
   }
 }

@@ -15,6 +15,7 @@ import { FormClassiComponent } from './components/form-classi/form-classi.compon
 import { ListaClassiComponent } from './components/lista-classi/lista-classi.component';
 import { DettaglioClasseComponent } from './components/dettaglio-classe/dettaglio-classe.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { ErrorPageComponent } from './components/error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     ListaClassiComponent,
     DettaglioClasseComponent,
     HomepageComponent,
+    ErrorPageComponent,
   ],
   imports: [
     BrowserModule,

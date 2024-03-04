@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white; /* Sfondo bianco */
+}
+
+h1 {
+  font-size: 3em;
+  color: red; /* Testo rosso */
+  text-transform: capitalize;
+  font-weight: bold;
+}

@@ -1,0 +1,46 @@
+.erBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  max-width: 300px; /* Larghezza massima della card */
+  
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0; /* Arrotonda solo gli angoli superiori */
+  transition: transform 0.3s ease;
+}
+
+.container:hover img {
+  transform: scale(1.05); /* Effetto di ingrandimento al passaggio del mouse */
+}
+
+.containerParagraph {
+  text-align: center;
+}
+
+.containerParagraph p {
+  margin: 10px 0;
+}
+
+.containerParagraph p span {
+  font-weight: bold;
+}

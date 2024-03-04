@@ -1,2 +1,10 @@
-<p>Classe {{ classe.classe }} {{ classe.sezione }}</p>
-<img src="{{ classe.mascotte }}" alt="" />
+<div class="erBody">
+  <div class="container">
+    <img src="{{ classe.mascotte }}" alt="" />
+    <div class="containerParagraph">
+      <p><span>Classe : </span> {{ classe.classe }} {{ classe.sezione }}</p>
+      <p><span>Rappresentante :</span> {{ classe.rappresentante }}</p>
+      <p><span>Laboratorio :</span> {{ classe.laboratorio ? "Si" : "No" }}</p>
+    </div>
+  </div>
+</div>

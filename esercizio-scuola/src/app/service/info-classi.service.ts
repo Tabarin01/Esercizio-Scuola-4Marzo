@@ -17,7 +17,7 @@ export class InfoClassiService {
       laboratorio: true,
       rappresentante: 'Luna Stardust',
       mascotte:
-        'https://ih1.redbubble.net/image.4909511332.3792/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg',
+        'https://www.pupapazza.com/wp-content/uploads/2021/08/mod-1.jpg',
     },
     {
       classe: 2,
@@ -25,14 +25,15 @@ export class InfoClassiService {
       laboratorio: false,
       rappresentante: 'Neo Flux',
       mascotte:
-        'https://cdn.corrieredellosport.it/images/2020/05/17/132405093-9c63a25a-4276-4882-b454-a517574022bf.jpeg',
+        'https://www.figc.it/media/194497/home-mascotte.jpg?width=618&height=409&mode=max',
     },
     {
       classe: 5,
       sezione: 'B',
       laboratorio: true,
       rappresentante: 'Astra Nova',
-      mascotte: 'https://i.ebayimg.com/images/g/Nh0AAOSwopljvN4H/s-l1200.webp',
+      mascotte:
+        'https://www.hvstore.it/wp-content/uploads/2023/07/2023-07-07_ECOMM_HELLASVERONA0632.jpg',
     },
     {
       classe: 1,
@@ -40,7 +41,7 @@ export class InfoClassiService {
       laboratorio: false,
       rappresentante: 'Cosmo Spark',
       mascotte:
-        'https://c4.wallpaperflare.com/wallpaper/937/112/903/adults-riley-reid-brunette-face-wallpaper-preview.jpg',
+        'https://www.pupapazza.com/wp-content/uploads/2021/12/IMG_2993-scaled.jpg',
     },
     {
       classe: 2,
@@ -55,7 +56,8 @@ export class InfoClassiService {
       sezione: 'A',
       laboratorio: true,
       rappresentante: 'Mario Fringuelli',
-      mascotte: 'https://i.ebayimg.com/images/g/br0AAOSwg69hbAPx/s-l1200.webp',
+      mascotte:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2020-PVHB-Mascotte-Marguerite-04.jpg/330px-2020-PVHB-Mascotte-Marguerite-04.jpg',
     },
     {
       classe: 3,
@@ -63,7 +65,7 @@ export class InfoClassiService {
       laboratorio: true,
       rappresentante: 'Andrea Scarrone',
       mascotte:
-        'https://i.dailymail.co.uk/1s/2023/01/03/15/66151061-11595191-image-m-225_1672761020998.jpg',
+        'https://www.noleggio-gonfiabile.it/wp-content/uploads/2023/08/paperino-mascotte.png',
     },
     {
       classe: 5,
@@ -71,7 +73,7 @@ export class InfoClassiService {
       laboratorio: true,
       rappresentante: 'Micheal Jordan',
       mascotte:
-        'https://www.redbled.com/wp-content/uploads/2023/11/brazzers-pornstars-1200x720.jpg',
+        'https://www.parigi.it/images/mascotte-copyright-paris-2024.jpg?v=b71d',
     },
   ];
 
